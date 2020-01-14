@@ -1,0 +1,4 @@
+be\businesstraining\domain\Message.class
+be\businesstraining\domain\DateTime.class
+be\businesstraining\domain\App.class
+be\businesstraining\domain\GreetingMessage.class

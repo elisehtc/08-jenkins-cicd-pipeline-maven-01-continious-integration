@@ -1,4 +1,4 @@
-package be.businesstraining;
+package be.businesstraining.domain;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
