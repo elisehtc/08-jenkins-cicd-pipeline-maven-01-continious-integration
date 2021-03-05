@@ -4,11 +4,11 @@ pipeline {
       maven 'my-maven-3.6.3' 
     }    
     stages {    	 
-	    //stage ('Clone') {
-          //steps {
-            //   git branch: 'master', url: "https://gitlab.com/elisehtc/08-jenkins-cicd-pipeline-maven-01-continious-integration.git"
-           //}
-	  //  }	
+	    stage ('Clone') {
+          steps {
+             git branch: 'master', url: "https://gitlab.com/mromdhani/08-jenkins-cicd-pipeline-maven-01-continious-integration.git"
+          }
+	    }	
 	 
 	stage('Build & Unit test'){
 		  steps {
